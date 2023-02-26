@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Layout</title>
+	<style>
+		table {
+			border-collapse: collapse;
+            border-collapse: separate;
+			margin: auto;
+            border-spacing: 10px;
+		}
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: 1px solid black;
+            
+		}
+		.header{
+			background-color:  white;
+            border: 5px solid rgb(255, 0, 212);
+		}
+		.left {
+			background-color:  white;
+			height: 300px;
+			width: 100px;
+            border: 5px solid blue;
+		}
+		.right {
+			background-color:  white;
+			height: 300px;
+			width: 100px;
+            border: 5px solid yellow;
+		}
+		.content {
+			background-color: white;
+			height: 300px;
+            width: 1000;
+            border: 5px solid red;
+		}
+		.footer {
+			background-color:  white;
+            border: 5px solid green;
+
+		}
+	</style>
+</head>
+<body>
+	<table border="1" align="left" width="50%"; >
+		<tr>
+			<th colspan="3" class="header" style="font-size: 24px; color: rgb(74, 74, 197)">Header</th>
+		</tr>
+		<tr>
+			<td class="left" style="font-size: 24px; color: rgb(74, 74, 197)" >Left Sidebar</td>
+			<td class="content" style="font-size: 24px;color: rgb(74, 74, 197)" >Main Content</td>
+			<td class="right" style="font-size: 24px;color: rgb(74, 74, 197)">Right Sidebar</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="footer" style="font-size: 24px;color: rgb(74, 74, 197)">Footer</td>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+
+
